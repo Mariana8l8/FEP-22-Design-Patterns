@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Development\\LABs\\LABs_DesignPatterns\\Design_patterns_labs\\Lab1_patterns\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{398601FD-3C37-4859-BE30-D2AA0657C8F9}|Lab1_patterns\\Lab1_patterns.csproj|c:\\development\\labs\\labs_designpatterns\\design_patterns_labs\\lab1_patterns\\lab1_patterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398601FD-3C37-4859-BE30-D2AA0657C8F9}|Lab1_patterns\\Lab1_patterns.csproj|solutionrelative:lab1_patterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398601FD-3C37-4859-BE30-D2AA0657C8F9}|Lab1_patterns\\Lab1_patterns.csproj|c:\\development\\labs\\labs_designpatterns\\design_patterns_labs\\lab1_patterns\\lab1_patterns\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398601FD-3C37-4859-BE30-D2AA0657C8F9}|Lab1_patterns\\Lab1_patterns.csproj|solutionrelative:lab1_patterns\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398601FD-3C37-4859-BE30-D2AA0657C8F9}|Lab1_patterns\\Lab1_patterns.csproj|c:\\development\\labs\\labs_designpatterns\\design_patterns_labs\\lab1_patterns\\lab1_patterns\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398601FD-3C37-4859-BE30-D2AA0657C8F9}|Lab1_patterns\\Lab1_patterns.csproj|solutionrelative:lab1_patterns\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398601FD-3C37-4859-BE30-D2AA0657C8F9}|Lab1_patterns\\Lab1_patterns.csproj|c:\\development\\labs\\labs_designpatterns\\design_patterns_labs\\lab1_patterns\\lab1_patterns\\operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398601FD-3C37-4859-BE30-D2AA0657C8F9}|Lab1_patterns\\Lab1_patterns.csproj|solutionrelative:lab1_patterns\\operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Operator.cs",
+              "DocumentMoniker": "C:\\Development\\LABs\\LABs_DesignPatterns\\Design_patterns_labs\\Lab1_patterns\\Lab1_patterns\\Operator.cs",
+              "RelativeDocumentMoniker": "Lab1_patterns\\Operator.cs",
+              "ToolTip": "C:\\Development\\LABs\\LABs_DesignPatterns\\Design_patterns_labs\\Lab1_patterns\\Lab1_patterns\\Operator.cs",
+              "RelativeToolTip": "Lab1_patterns\\Operator.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAE8AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T08:59:15.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "C:\\Development\\LABs\\LABs_DesignPatterns\\Design_patterns_labs\\Lab1_patterns\\Lab1_patterns\\Bill.cs",
+              "RelativeDocumentMoniker": "Lab1_patterns\\Bill.cs",
+              "ToolTip": "C:\\Development\\LABs\\LABs_DesignPatterns\\Design_patterns_labs\\Lab1_patterns\\Lab1_patterns\\Bill.cs",
+              "RelativeToolTip": "Lab1_patterns\\Bill.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAUwFIAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:15:05.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Development\\LABs\\LABs_DesignPatterns\\Design_patterns_labs\\Lab1_patterns\\Lab1_patterns\\Customer.cs",
+              "RelativeDocumentMoniker": "Lab1_patterns\\Customer.cs",
+              "ToolTip": "C:\\Development\\LABs\\LABs_DesignPatterns\\Design_patterns_labs\\Lab1_patterns\\Lab1_patterns\\Customer.cs",
+              "RelativeToolTip": "Lab1_patterns\\Customer.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAYwJEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:14:25.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\LABs\\LABs_DesignPatterns\\Design_patterns_labs\\Lab1_patterns\\Lab1_patterns\\Program.cs",
+              "RelativeDocumentMoniker": "Lab1_patterns\\Program.cs",
+              "ToolTip": "C:\\Development\\LABs\\LABs_DesignPatterns\\Design_patterns_labs\\Lab1_patterns\\Lab1_patterns\\Program.cs",
+              "RelativeToolTip": "Lab1_patterns\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:13:28.757Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
