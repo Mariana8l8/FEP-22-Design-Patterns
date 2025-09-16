@@ -1,0 +1,14 @@
+C:\Anastasiia\Development\University\Патерни проєктування\Lab01\Lab01\bin\Debug\net9.0\Lab01.exe
+C:\Anastasiia\Development\University\Патерни проєктування\Lab01\Lab01\bin\Debug\net9.0\Lab01.deps.json
+C:\Anastasiia\Development\University\Патерни проєктування\Lab01\Lab01\bin\Debug\net9.0\Lab01.runtimeconfig.json
+C:\Anastasiia\Development\University\Патерни проєктування\Lab01\Lab01\bin\Debug\net9.0\Lab01.dll
+C:\Anastasiia\Development\University\Патерни проєктування\Lab01\Lab01\bin\Debug\net9.0\Lab01.pdb
+C:\Anastasiia\Development\University\Патерни проєктування\Lab01\Lab01\obj\Debug\net9.0\Lab01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Anastasiia\Development\University\Патерни проєктування\Lab01\Lab01\obj\Debug\net9.0\Lab01.AssemblyInfoInputs.cache
+C:\Anastasiia\Development\University\Патерни проєктування\Lab01\Lab01\obj\Debug\net9.0\Lab01.AssemblyInfo.cs
+C:\Anastasiia\Development\University\Патерни проєктування\Lab01\Lab01\obj\Debug\net9.0\Lab01.csproj.CoreCompileInputs.cache
+C:\Anastasiia\Development\University\Патерни проєктування\Lab01\Lab01\obj\Debug\net9.0\Lab01.dll
+C:\Anastasiia\Development\University\Патерни проєктування\Lab01\Lab01\obj\Debug\net9.0\refint\Lab01.dll
+C:\Anastasiia\Development\University\Патерни проєктування\Lab01\Lab01\obj\Debug\net9.0\Lab01.pdb
+C:\Anastasiia\Development\University\Патерни проєктування\Lab01\Lab01\obj\Debug\net9.0\Lab01.genruntimeconfig.cache
+C:\Anastasiia\Development\University\Патерни проєктування\Lab01\Lab01\obj\Debug\net9.0\ref\Lab01.dll
