@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\LABs\\LABs_DesignPatterns\\Design_patterns_labs\\Lab1_patterns\\Lab1_patterns\\Lab1_patterns.csproj",
+      "projectUniqueName": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab1_patterns\\Lab1_patterns\\Lab1_patterns.csproj",
       "projectName": "Lab1_patterns",
-      "projectPath": "C:\\Development\\LABs\\LABs_DesignPatterns\\Design_patterns_labs\\Lab1_patterns\\Lab1_patterns\\Lab1_patterns.csproj",
+      "projectPath": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab1_patterns\\Lab1_patterns\\Lab1_patterns.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\LABs\\LABs_DesignPatterns\\Design_patterns_labs\\Lab1_patterns\\Lab1_patterns\\obj\\",
+      "outputPath": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab1_patterns\\Lab1_patterns\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
