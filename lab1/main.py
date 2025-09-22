@@ -16,7 +16,7 @@ class Customer:
         if bills.check_limit(cost):
             bills.add(cost)
             debt = bills.get_debt()
-            print(f"Ви поговорили {minutes} хвилин. Вартість: {debt} грн")
+            print(f"Вартість дзвінка: {cost} грн. Ваш борг: {debt} грн")
         else:
             print("Перевищено ліміт рахунку. Дзвінок не здійснено.")
     
@@ -25,7 +25,7 @@ class Customer:
         if bills.check_limit(cost):
             bills.add(cost)
             debt = bills.get_debt()
-            print(f"Ви відправили {quantity} повідомлень. Вартість: {debt} грн")
+            print(f"Вартість повідомлення: {cost} грн. Ваш борг: {debt} грн")
         else:
             print("Перевищено ліміт рахунку. Повідомлення не відправлено.")
 
