@@ -44,11 +44,11 @@ pprint({
 ship1.sail_to(port2)
 ship2.sail_to(port2)
 
-ship1.unload(basic1)
-ship1.unload(heavy1)
+ship1.unload(basic1.id)
+ship1.unload(heavy1.id)
 
-ship2.unload(refrigerated1)
-ship2.unload(liquid1)
+ship2.unload(refrigerated1.id)
+ship2.unload(liquid1.id)
 
 ports_data = {
     **port1.to_dict(),

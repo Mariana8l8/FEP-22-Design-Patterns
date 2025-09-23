@@ -46,9 +46,7 @@
             "max_heavy": 2,
             "max_refrigerated": 1,
             "max_liquid": 2,
-            "basic_container": [
-                2
-            ],
+            "basic_container": [],
             "heavy_container": [],
             "liquid_container": [],
             "refrigerated_container": [],

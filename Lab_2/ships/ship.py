@@ -26,7 +26,7 @@ class Ship(IShip):
 
         self.__fuel = fuel
         self.__current_port: Port = port
-        self.__containers: list[Container] = []
+        self.__containers: dict[int, Container] = {}
         self.__fuel_consumption_per_km: float = fuel_consumption_per_km
         self.__capacity: ShipCapacity = capacity
 
@@ -41,7 +41,7 @@ class Ship(IShip):
         return self.__current_port
 
     @property
-    def containers(self) -> list[Container]:
+    def containers(self) -> dict[int, Container]:
         return self.__containers
 
     @property
@@ -54,11 +54,11 @@ class Ship(IShip):
 
     @property
     def current_containers(self) -> list[Container]:
-        return sorted(self.__containers, key=lambda c: c.id)
+        return sorted(self.__containers.values(), key=lambda c: c.id)
 
     @property
     def total_fuel_consumption(self) -> float:
-        return self.__fuel_consumption_per_km + sum(c.consumption() for c in self.__containers)
+        return self.__fuel_consumption_per_km + sum(c.consumption() for c in self.__containers.values())
 
     def sail_to(self, port: IPort) -> None:
         if not isinstance(port, IPort):
@@ -86,7 +86,7 @@ class Ship(IShip):
         if len(self.__containers) >= self.__capacity.max_all:
             print("Cannot load more containers: maximum number of containers reached.")
             return
-        if sum(c.weight for c in self.__containers) + container.weight > self.__capacity.max_weight:
+        if sum(c.weight for c in self.__containers.values()) + container.weight > self.__capacity.max_weight:
             print("Cannot load container: total weight capacity exceeded.")
             return
 
@@ -106,16 +106,16 @@ class Ship(IShip):
                     return
 
         self.__current_port.unload_container(container)
-        self.__containers.append(container)
+        self.__containers[container.id] = container
 
-    def unload(self, container: Container) -> None:
-        if not isinstance(container, Container):
+    def unload(self, container_id: int) -> None:
+        if not isinstance(container_id, int):
             raise TypeError("Container must be an instance of Container")
-        if container not in self.__containers:
+        if container_id not in self.__containers.keys():
             raise ValueError("Container not incoming")
 
-        self.__containers.remove(container)
-        self.__current_port.load_container(container)
+        unload_container = self.__containers.pop(container_id)
+        self.__current_port.load_container(unload_container)
 
     def to_dict(self) -> dict:
         return {

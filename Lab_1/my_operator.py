@@ -1,9 +1,11 @@
-from customer import Customer
+from typing import TYPE_CHECKING
+if TYPE_CHECKING:
+    from my_customer import Customer
 
 class Operator:
     operators: dict[int, 'Operator'] = {}
 
-    def __init__(self, name: str, talkingCharge: float, messageCost: float, networkCharge: float,
+    def __init__(self, name: str, talkingCharge: float | int, messageCost: float | int, networkCharge: float | int,
                  discountRate: int):
         if not isinstance(name, str):
             raise TypeError("Name must be a string")
@@ -72,15 +74,15 @@ class Operator:
     def discountRate(self, discountRate):
         self.__discountRate = discountRate
 
-    def calculate_talking_cost(self, minute: int, customer1: 'Customer', customer2: 'Customer') -> float:
+    def calculate_talking_cost(self, minute: int, customer2: 'Customer', operator_id: int) -> float:
         cost_per_minute = self.__talkingCharge
-        if customer1.operator.ID == customer2.operator.ID:
+        if operator_id in customer2.operator.keys():
             cost_per_minute *= (100 - self.__discountRate) / 100
         return minute * cost_per_minute
 
-    def calculate_message_cost(self, quantity: int, customer1: 'Customer', customer2: 'Customer') -> float:
+    def calculate_message_cost(self, quantity: int, customer2: 'Customer', operator_id: int) -> float:
         cost_per_message = self.__messageCost
-        if customer1.operator.ID == customer2.operator.ID:
+        if operator_id in customer2.operator.keys():
             cost_per_message *= (100 - self.__discountRate) / 100
         return quantity * cost_per_message
 

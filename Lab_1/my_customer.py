@@ -1,6 +1,8 @@
 from utils import check_amount
 from bill import Bill
-from operator import Operator
+from typing import TYPE_CHECKING
+if TYPE_CHECKING:
+    from my_operator import Operator
 
 class Customer:
     customers: dict[int, 'Customer'] = {}
@@ -15,7 +17,7 @@ class Customer:
 
         self.__name: str = name
         self.__age: int = age
-        self.__operator: Operator = None
+        self.__operator: dict[int, 'Operator'] = {}
         self.__bill: Bill = Bill(limitingAmount=0.0, currentDebt=0.0)
 
         if Customer.customers:
@@ -64,13 +66,13 @@ class Customer:
             return True
         return False
 
-    def talk(self, minute: int, customer: 'Customer'):
+    def talk(self, minute: int, customer: 'Customer', operator_id: int):
         if self._check_operator(customer, minute):
             return
 
-        total_cost = self.__operator.calculate_talking_cost(minute, self, customer)
+        total_cost = self.__operator[operator_id].calculate_talking_cost(minute, customer, operator_id)
         available_limit = self.__bill.limitingAmount - self.__bill.currentDebt
-        cost_per_minute = self.__operator.talkingCharge
+        cost_per_minute = self.__operator[operator_id].talkingCharge
 
         if total_cost <= available_limit:
             self.__bill.add(total_cost)
@@ -84,13 +86,13 @@ class Customer:
             print(
                 f"{self.name}'s call with {customer.name} was cut after {max_minutes} minutes. Limit reached ({self.__bill.limitingAmount:.2f}).")
 
-    def message(self, quantity: int, customer: 'Customer'):
+    def message(self, quantity: int, customer: 'Customer', operator_id: int):
         if self._check_operator(customer, quantity):
             return
 
-        total_cost = self.__operator.calculate_message_cost(quantity, self, customer)
+        total_cost = self.__operator[operator_id].calculate_message_cost(quantity, customer, operator_id)
         available_limit = self.__bill.limitingAmount - self.__bill.currentDebt
-        cost_per_message = self.__operator.messageCost
+        cost_per_message = self.__operator[operator_id].messageCost
 
         if total_cost <= available_limit:
             self.__bill.add(total_cost)
@@ -104,14 +106,14 @@ class Customer:
             print(
                 f"{self.name} could only send {max_messages} messages to {customer.name}. Limit reached ({self.__bill.limitingAmount:.2f}).")
 
-    def connection(self, amount: float):
+    def connection(self, amount: float, operator_id: int):
         if not self.operator:
             print(f"{self.name} does not have an operator assigned.")
             return
         if check_amount(amount):
             return
 
-        total_cost = self.__operator.calculate_connection_cost(amount)
+        total_cost = self.__operator[operator_id].calculate_connection_cost(amount)
         available_limit = self.__bill.limitingAmount - self.__bill.currentDebt
 
         if total_cost <= available_limit:
@@ -121,7 +123,7 @@ class Customer:
             print(
                 f"{self.name} cannot use internet; credit limit reached ({self.__bill.currentDebt:.2f}/{self.__bill.limitingAmount:.2f}).")
         else:
-            max_amount = available_limit / self.__operator.networkCharge
+            max_amount = available_limit / self.__operator[operator_id].networkCharge
             self.__bill.add(available_limit)
             print(
                 f"{self.name} could only use {max_amount:.2f} MB of internet. Limit reached ({self.__bill.limitingAmount:.2f}).")
@@ -136,12 +138,8 @@ class Customer:
         print(
             f"{self.name} paid {amount:.2f}. Current debt: {self.__bill.currentDebt:.2f}, limit: {self.__bill.limitingAmount:.2f}")
 
-    def connect_operator(self, operator: Operator):
-        if self.__operator:
-            print(f"You need to disconnect from operator {self.__operator.ID} first.")
-            return
-
-        self.__operator = operator
+    def connect_operator(self, operator: 'Operator'):
+        self.__operator[operator.ID] = operator
         typical_talk_minutes = 120
         typical_messages = 100
         typical_internet_mb = 2000
@@ -157,12 +155,12 @@ class Customer:
         print(f"{self.__name} connected to operator {operator.ID}. "
               f"Limiting amount set to {self.__bill.limitingAmount:.2f}.")
 
-    def disconnect_operator(self):
+    def disconnect_operator(self, operator_id: int):
         if not self.__operator:
             print(f"{self.__name} is not connected to any operator.")
             return
 
-        operator_name = self.__operator.name
-        self.__operator = None
-        self.__bill.changeTheLimitingAmount(0)
+        operator_name = self.__operator.pop(operator_id).name
+        if not self.__operator:
+            self.__bill.changeTheLimitingAmount(0)
         print(f"{self.__name} has disconnected from operator {operator_name}. Limiting amount reset to 0.")

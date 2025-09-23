@@ -1,7 +1,9 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from id_generator import IDGenerator
-from ships.iship import IShip
+from typing import TYPE_CHECKING
+if TYPE_CHECKING:
+    from ships.iship import IShip
 
 
 class IPort(ABC):
