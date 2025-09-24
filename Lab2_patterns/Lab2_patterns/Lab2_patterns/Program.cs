@@ -165,8 +165,8 @@ namespace Lab2_patterns
             double curWeight = ship.CurrentContainers.Sum(x => x.Weight);
             if (curWeight + cont.Weight > maxWeight) return;
 
-            port.Containers.Remove(cont);
             ship.CurrentContainers.Add(cont);
+            Console.WriteLine(string.Join(',', ship.CurrentContainers));
         }
 
         static void Unload(JsonObject o)
@@ -183,8 +183,9 @@ namespace Lab2_patterns
 
             if (!ship.CurrentContainers.Contains(cont)) return;
 
-            ship.CurrentContainers.Remove(cont);
             port.Containers.Add(cont);
+            Console.WriteLine(string.Join(',', port.Containers));
+            ship.CurrentContainers.Remove(cont);
         }
 
         static void SailTo(JsonObject o)
@@ -227,8 +228,8 @@ namespace Lab2_patterns
             {
                 var portObj = new JsonObject
                 {
-                    ["lat"] = port.Latitude.ToString("F2").Replace(',', '.'),
-                    ["lon"] = port.Longitude.ToString("F2").Replace(',', '.')
+                    ["lat"] = port.Latitude.ToString("F2"),
+                    ["lon"] = port.Longitude.ToString("F2")
                 };
 
                 var basic = new List<int>();

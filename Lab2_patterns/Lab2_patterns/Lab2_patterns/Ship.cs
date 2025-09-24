@@ -96,12 +96,12 @@ namespace Lab2_patterns
 
             if (CurrentContainers.Contains(cont))
             {
-                return false;
+                CurrentContainers.Remove(cont);
+                return true;
             }
             else
             {
-                CurrentContainers.Remove(cont);
-                return true;
+                return false;
             }
         }
         public double WeightTotalCalc(List<Container> CurrentContainers)

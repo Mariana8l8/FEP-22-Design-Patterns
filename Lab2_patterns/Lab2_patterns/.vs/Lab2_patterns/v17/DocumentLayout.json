@@ -11,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{5E0E70A4-E70F-4371-8650-20BCC7EFFF5C}|Lab2_patterns\\Lab2_patterns.csproj|solutionrelative:lab2_patterns\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E0E70A4-E70F-4371-8650-20BCC7EFFF5C}|Lab2_patterns\\Lab2_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab2_patterns\\lab2_patterns\\lab2_patterns\\refrigeratedcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E0E70A4-E70F-4371-8650-20BCC7EFFF5C}|Lab2_patterns\\Lab2_patterns.csproj|solutionrelative:lab2_patterns\\refrigeratedcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5E0E70A4-E70F-4371-8650-20BCC7EFFF5C}|Lab2_patterns\\Lab2_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab2_patterns\\lab2_patterns\\lab2_patterns\\port.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E0E70A4-E70F-4371-8650-20BCC7EFFF5C}|Lab2_patterns\\Lab2_patterns.csproj|solutionrelative:lab2_patterns\\port.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E0E70A4-E70F-4371-8650-20BCC7EFFF5C}|Lab2_patterns\\Lab2_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab2_patterns\\lab2_patterns\\lab2_patterns\\ihub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E0E70A4-E70F-4371-8650-20BCC7EFFF5C}|Lab2_patterns\\Lab2_patterns.csproj|solutionrelative:lab2_patterns\\ihub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E0E70A4-E70F-4371-8650-20BCC7EFFF5C}|Lab2_patterns\\Lab2_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab2_patterns\\lab2_patterns\\lab2_patterns\\refrigeratedcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E0E70A4-E70F-4371-8650-20BCC7EFFF5C}|Lab2_patterns\\Lab2_patterns.csproj|solutionrelative:lab2_patterns\\refrigeratedcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E0E70A4-E70F-4371-8650-20BCC7EFFF5C}|Lab2_patterns\\Lab2_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab2_patterns\\lab2_patterns\\lab2_patterns\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5E0E70A4-E70F-4371-8650-20BCC7EFFF5C}|Lab2_patterns\\Lab2_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab2_patterns\\lab2_patterns\\lab2_patterns\\iport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E0E70A4-E70F-4371-8650-20BCC7EFFF5C}|Lab2_patterns\\Lab2_patterns.csproj|solutionrelative:lab2_patterns\\iport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E0E70A4-E70F-4371-8650-20BCC7EFFF5C}|Lab2_patterns\\Lab2_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab2_patterns\\lab2_patterns\\lab2_patterns\\ihub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E0E70A4-E70F-4371-8650-20BCC7EFFF5C}|Lab2_patterns\\Lab2_patterns.csproj|solutionrelative:lab2_patterns\\ihub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E0E70A4-E70F-4371-8650-20BCC7EFFF5C}|Lab2_patterns\\Lab2_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab2_patterns\\lab2_patterns\\lab2_patterns\\heavycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "IHub.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab2_patterns\\Lab2_patterns\\Lab2_patterns\\IHub.cs",
               "RelativeDocumentMoniker": "Lab2_patterns\\IHub.cs",
@@ -95,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IPort.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab2_patterns\\Lab2_patterns\\Lab2_patterns\\IPort.cs",
               "RelativeDocumentMoniker": "Lab2_patterns\\IPort.cs",
@@ -103,12 +103,11 @@
               "RelativeToolTip": "Lab2_patterns\\IPort.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T20:39:56.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T20:39:56.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IShip.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab2_patterns\\Lab2_patterns\\Lab2_patterns\\IShip.cs",
               "RelativeDocumentMoniker": "Lab2_patterns\\IShip.cs",
@@ -116,8 +115,7 @@
               "RelativeToolTip": "Lab2_patterns\\IShip.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T20:12:16.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T20:12:16.066Z"
             },
             {
               "$type": "Document",
@@ -127,14 +125,14 @@
               "RelativeDocumentMoniker": "Lab2_patterns\\Ship.cs",
               "ToolTip": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab2_patterns\\Lab2_patterns\\Lab2_patterns\\Ship.cs",
               "RelativeToolTip": "Lab2_patterns\\Ship.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAF4AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAuwGQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T20:08:17.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RefrigeratedContainer.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab2_patterns\\Lab2_patterns\\Lab2_patterns\\RefrigeratedContainer.cs",
               "RelativeDocumentMoniker": "Lab2_patterns\\RefrigeratedContainer.cs",
@@ -142,12 +140,11 @@
               "RelativeToolTip": "Lab2_patterns\\RefrigeratedContainer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T19:29:15.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T19:29:15.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LiquidContainer.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab2_patterns\\Lab2_patterns\\Lab2_patterns\\LiquidContainer.cs",
               "RelativeDocumentMoniker": "Lab2_patterns\\LiquidContainer.cs",
@@ -155,8 +152,7 @@
               "RelativeToolTip": "Lab2_patterns\\LiquidContainer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T19:29:02.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T19:29:02.49Z"
             },
             {
               "$type": "Document",
@@ -168,8 +164,7 @@
               "RelativeToolTip": "Lab2_patterns\\BasicContainer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T19:27:28.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T19:27:28.572Z"
             },
             {
               "$type": "Document",
@@ -181,12 +176,11 @@
               "RelativeToolTip": "Lab2_patterns\\Container.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T19:26:57.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T19:26:57.592Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Plane.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab2_patterns\\Lab2_patterns\\Lab2_patterns\\Plane.cs",
               "RelativeDocumentMoniker": "Lab2_patterns\\Plane.cs",
@@ -194,8 +188,7 @@
               "RelativeToolTip": "Lab2_patterns\\Plane.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAAH0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T15:57:57.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T15:57:57.648Z"
             },
             {
               "$type": "Document",
@@ -207,8 +200,7 @@
               "RelativeToolTip": "Lab2_patterns\\HeavyContainer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T15:52:51.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T15:52:51.764Z"
             },
             {
               "$type": "Document",
@@ -218,20 +210,20 @@
               "RelativeDocumentMoniker": "Lab2_patterns\\Program.cs",
               "ToolTip": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab2_patterns\\Lab2_patterns\\Lab2_patterns\\Program.cs",
               "RelativeToolTip": "Lab2_patterns\\Program.cs",
-              "ViewState": "AgIAABcBAAAAAAAAAAAYwCcBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOAAAAAAAAAAAADwv+8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T15:46:39.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Port.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab2_patterns\\Lab2_patterns\\Lab2_patterns\\Port.cs",
               "RelativeDocumentMoniker": "Lab2_patterns\\Port.cs",
               "ToolTip": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab2_patterns\\Lab2_patterns\\Lab2_patterns\\Port.cs",
               "RelativeToolTip": "Lab2_patterns\\Port.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T04:43:36.937Z",
               "EditorCaption": ""
@@ -246,8 +238,7 @@
               "RelativeToolTip": "Lab2_patterns\\Airport.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAAwEAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T04:43:50.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T04:43:50.185Z"
             }
           ]
         }
