@@ -35,7 +35,11 @@ namespace Lab2_patterns
             MaxRangeKm = maxRangeKm;
         }
         public List<Container> GetCurrentContainers() => new List<Container>(CurrentContainers);
-        public void ReFuel(double newFuel) { Fuel = newFuel; }
+        public void ReFuel(double newFuel)
+        {
+            if (newFuel <= 0) return;
+            Fuel += newFuel;
+        }
         public bool CheckingForPermQuantityContainers(Container cont, List<Container> currentContainers)
         {
             if (cont == null || currentContainers == null) return false;
@@ -117,14 +121,23 @@ namespace Lab2_patterns
             if (CurrentPort == destination) return true;
 
             double dist = CurrentPort.DistanceTo(destination);
-            double totalWeight = WeightTotalCalc(CurrentContainers);
+            double totalWeight = WeightTotalCalc(CurrentContainers) / 1000.0;
 
             // The coefficient of increase in consumption per ton: 0.05 l/km.
-            double totalFuel = dist * (FuelConsumptionPerKM + 0.05 * totalWeight);
+            //double totalFuel = dist * (FuelConsumptionPerKM + 0.05 * totalWeight);
 
-            if (dist > MaxRangeKm || Fuel < totalFuel) return false;
-            
-            Fuel -= totalFuel;
+            //if (dist > MaxRangeKm || Fuel < totalFuel) return false;
+
+            //Fuel -= totalFuel;
+            //CurrentPort = destination;
+            //return true;
+
+            double perKm = FuelConsumptionPerKM + 0.05 * totalWeight;
+            double needed = dist * perKm;
+
+            if (dist > MaxRangeKm || Fuel < needed) return false;
+
+            Fuel -= needed;
             CurrentPort = destination;
             return true;
         }

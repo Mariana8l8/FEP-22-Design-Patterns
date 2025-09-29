@@ -8,8 +8,6 @@ namespace Lab2_patterns
 {
     internal class LiquidContainer : HeavyContainer
     {
-        public int ID { get; }
-        public double Weight { get; }
         public LiquidContainer(int id, double weight) : base(id, weight) { }
         public override double Consumption() => 4.0 * Weight; 
     }
