@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Lab3_patterns": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\course.json"
+    }
+  }
+}
