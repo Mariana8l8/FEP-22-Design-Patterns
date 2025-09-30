@@ -3,148 +3,148 @@
   "WorkspaceRootPath": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Course.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Course.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns.tests\\courseabstractfactorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|solutionrelative:lab3_patterns.tests\\courseabstractfactorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\assistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\assistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\programmingcoursefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\programmingcoursefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns.tests\\submissionrulestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|solutionrelative:lab3_patterns.tests\\submissionrulestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\onlineuploaddefense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\onlineuploaddefense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\githubrepodefense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\githubrepodefense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns.tests\\sessiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|solutionrelative:lab3_patterns.tests\\sessiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\databasescoursefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\databasescoursefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns.tests\\teachersrulestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|solutionrelative:lab3_patterns.tests\\teachersrulestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\programmingcoursework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\programmingcoursework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\studentgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\studentgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\databasescoursework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\databasescoursework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\courseenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\courseenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\coursework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\coursework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\programminglecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\programminglecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\databasescoursefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\databasescoursefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\offlinedefense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\offlinedefense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\externalmentor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\externalmentor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\isubmissioncoursework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\isubmissioncoursework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\iteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\iteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\practice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\practice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\timecell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\timecell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\sessionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\sessionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\programmingpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\programmingpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\practicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\practicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\lecturefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\lecturefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\isupervisecapable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\isupervisecapable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\ipracticalcapable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\ipracticalcapable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\ilecturecapable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\ilecturecapable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\icoursefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\icoursefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\databasespractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\databasespractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\databasescoursework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\databasescoursework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\databaseslecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\databaseslecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\courseenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\courseenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\databasespractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\databasespractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\externalmentor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\externalmentor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\githubrepodefense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\githubrepodefense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\icoursefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\icoursefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\ilecturecapable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\ilecturecapable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\ipracticalcapable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\ipracticalcapable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\isubmissioncoursework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\isubmissioncoursework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\isupervisecapable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\isupervisecapable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\iteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\iteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\lecturefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\lecturefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\offlinedefense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\offlinedefense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\onlineuploaddefense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\onlineuploaddefense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\practice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\practice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\practicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\practicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\programmingcoursefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\programmingcoursefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\programmingcoursework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\programmingcoursework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\programminglecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\programminglecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\programmingpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\programmingpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\sessionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\sessionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\studentgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\studentgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns\\timecell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C4D338-D170-4156-A82E-1DB03CC69E7A}|Lab3_patterns\\Lab3_patterns.csproj|solutionrelative:lab3_patterns\\timecell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns.tests\\submissionrulestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|solutionrelative:lab3_patterns.tests\\submissionrulestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns.tests\\teachersrulestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|solutionrelative:lab3_patterns.tests\\teachersrulestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns.tests\\sessiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|solutionrelative:lab3_patterns.tests\\sessiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|c:\\development\\labs\\fep-22-design-patterns\\lab3_patterns\\lab3_patterns.tests\\courseabstractfactorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B584A120-D44E-4E62-BF34-8979ABC070DF}|Lab3_patterns.Tests\\Lab3_patterns.Tests.csproj|solutionrelative:lab3_patterns.tests\\courseabstractfactorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Course.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Course.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,7 +154,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 36,
+          "SelectedChildIndex": 29,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "GitHubRepoDefense.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\GitHubRepoDefense.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\GitHubRepoDefense.cs",
@@ -171,24 +171,26 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-28T19:25:38.218Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 31,
               "Title": "SubmissionRulesTests.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns.Tests\\SubmissionRulesTests.cs",
               "RelativeDocumentMoniker": "Lab3_patterns.Tests\\SubmissionRulesTests.cs",
               "ToolTip": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns.Tests\\SubmissionRulesTests.cs",
               "RelativeToolTip": "Lab3_patterns.Tests\\SubmissionRulesTests.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwB8AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-28T20:21:52.035Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "OnlineUploadDefense.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\OnlineUploadDefense.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\OnlineUploadDefense.cs",
@@ -197,11 +199,12 @@
               "ViewState": "AgIAAAEAAAAAAAAAAAAQwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-28T19:22:39.257Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 34,
               "Title": "CourseAbstractFactoryTests.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns.Tests\\CourseAbstractFactoryTests.cs",
               "RelativeDocumentMoniker": "Lab3_patterns.Tests\\CourseAbstractFactoryTests.cs",
@@ -214,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 35,
               "Title": "Course.json",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\course.json",
               "RelativeDocumentMoniker": "course.json",
@@ -235,11 +238,12 @@
               "RelativeToolTip": "Lab3_patterns\\OfflineDefense.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:27:00.181Z"
+              "WhenOpened": "2025-09-28T19:27:00.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 12,
               "Title": "ISubmissionCoursework.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\ISubmissionCoursework.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\ISubmissionCoursework.cs",
@@ -247,11 +251,12 @@
               "RelativeToolTip": "Lab3_patterns\\ISubmissionCoursework.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:20:38.295Z"
+              "WhenOpened": "2025-09-28T19:20:38.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 32,
               "Title": "TeachersRulesTests.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns.Tests\\TeachersRulesTests.cs",
               "RelativeDocumentMoniker": "Lab3_patterns.Tests\\TeachersRulesTests.cs",
@@ -259,11 +264,12 @@
               "RelativeToolTip": "Lab3_patterns.Tests\\TeachersRulesTests.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:02:28.465Z"
+              "WhenOpened": "2025-09-28T19:02:28.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 4,
               "Title": "DatabasesCoursework.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\DatabasesCoursework.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\DatabasesCoursework.cs",
@@ -271,11 +277,12 @@
               "RelativeToolTip": "Lab3_patterns\\DatabasesCoursework.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwAsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T15:17:28.061Z"
+              "WhenOpened": "2025-09-28T15:17:28.061Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 6,
               "Title": "DatabasesPractice.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\DatabasesPractice.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\DatabasesPractice.cs",
@@ -283,11 +290,12 @@
               "RelativeToolTip": "Lab3_patterns\\DatabasesPractice.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T15:16:34.194Z"
+              "WhenOpened": "2025-09-28T15:16:34.194Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 5,
               "Title": "DatabasesLecture.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\DatabasesLecture.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\DatabasesLecture.cs",
@@ -295,11 +303,12 @@
               "RelativeToolTip": "Lab3_patterns\\DatabasesLecture.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T15:15:54.944Z"
+              "WhenOpened": "2025-09-28T15:15:54.944Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "ProgrammingCoursework.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\ProgrammingCoursework.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\ProgrammingCoursework.cs",
@@ -307,7 +316,8 @@
               "RelativeToolTip": "Lab3_patterns\\ProgrammingCoursework.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAUwA0AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T15:10:57.641Z"
+              "WhenOpened": "2025-09-28T15:10:57.641Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -319,11 +329,12 @@
               "RelativeToolTip": "Lab3_patterns\\ProgrammingPractice.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T15:10:40.647Z"
+              "WhenOpened": "2025-09-28T15:10:40.647Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "ProgrammingLecture.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\ProgrammingLecture.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\ProgrammingLecture.cs",
@@ -331,11 +342,12 @@
               "RelativeToolTip": "Lab3_patterns\\ProgrammingLecture.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T15:10:15.163Z"
+              "WhenOpened": "2025-09-28T15:10:15.163Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 33,
               "Title": "SessionTests.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns.Tests\\SessionTests.cs",
               "RelativeDocumentMoniker": "Lab3_patterns.Tests\\SessionTests.cs",
@@ -343,23 +355,25 @@
               "RelativeToolTip": "Lab3_patterns.Tests\\SessionTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T14:30:07.117Z"
+              "WhenOpened": "2025-09-28T14:30:07.117Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 29,
               "Title": "StudentGroup.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\StudentGroup.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\StudentGroup.cs",
               "ToolTip": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\StudentGroup.cs",
               "RelativeToolTip": "Lab3_patterns\\StudentGroup.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAxwAgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:25:38.474Z"
+              "WhenOpened": "2025-09-27T14:25:38.474Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "DatabasesCourseFactory.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\DatabasesCourseFactory.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\DatabasesCourseFactory.cs",
@@ -367,11 +381,12 @@
               "RelativeToolTip": "Lab3_patterns\\DatabasesCourseFactory.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAACgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:24:15.806Z"
+              "WhenOpened": "2025-09-27T14:24:15.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 23,
               "Title": "ProgrammingCourseFactory.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\ProgrammingCourseFactory.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\ProgrammingCourseFactory.cs",
@@ -384,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 9,
               "Title": "ICourseFactory.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\ICourseFactory.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\ICourseFactory.cs",
@@ -392,23 +407,25 @@
               "RelativeToolTip": "Lab3_patterns\\ICourseFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:23:39.751Z"
+              "WhenOpened": "2025-09-27T14:23:39.751Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 1,
               "Title": "CourseEnrollment.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\CourseEnrollment.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\CourseEnrollment.cs",
               "ToolTip": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\CourseEnrollment.cs",
               "RelativeToolTip": "Lab3_patterns\\CourseEnrollment.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAzwAgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:23:20.979Z"
+              "WhenOpened": "2025-09-27T14:23:20.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 2,
               "Title": "Coursework.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\Coursework.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\Coursework.cs",
@@ -416,11 +433,12 @@
               "RelativeToolTip": "Lab3_patterns\\Coursework.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAywAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:22:09.413Z"
+              "WhenOpened": "2025-09-27T14:22:09.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 21,
               "Title": "PracticeFactory.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\PracticeFactory.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\PracticeFactory.cs",
@@ -428,11 +446,12 @@
               "RelativeToolTip": "Lab3_patterns\\PracticeFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:21:49.234Z"
+              "WhenOpened": "2025-09-27T14:21:49.234Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 16,
               "Title": "LectureFactory.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\LectureFactory.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\LectureFactory.cs",
@@ -440,11 +459,12 @@
               "RelativeToolTip": "Lab3_patterns\\LectureFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:21:33.204Z"
+              "WhenOpened": "2025-09-27T14:21:33.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "SessionFactory.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\SessionFactory.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\SessionFactory.cs",
@@ -452,11 +472,12 @@
               "RelativeToolTip": "Lab3_patterns\\SessionFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:21:10.61Z"
+              "WhenOpened": "2025-09-27T14:21:10.61Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "Practice.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\Practice.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\Practice.cs",
@@ -464,11 +485,12 @@
               "RelativeToolTip": "Lab3_patterns\\Practice.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:20:49Z"
+              "WhenOpened": "2025-09-27T14:20:49Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Lecture.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\Lecture.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\Lecture.cs",
@@ -476,11 +498,12 @@
               "RelativeToolTip": "Lab3_patterns\\Lecture.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:20:32.161Z"
+              "WhenOpened": "2025-09-27T14:20:32.161Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Session.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\Session.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\Session.cs",
@@ -488,11 +511,12 @@
               "RelativeToolTip": "Lab3_patterns\\Session.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:20:06.517Z"
+              "WhenOpened": "2025-09-27T14:20:06.517Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 7,
               "Title": "ExternalMentor.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\ExternalMentor.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\ExternalMentor.cs",
@@ -500,24 +524,25 @@
               "RelativeToolTip": "Lab3_patterns\\ExternalMentor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:19:40.97Z"
+              "WhenOpened": "2025-09-27T14:19:40.97Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Assistant.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\Assistant.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\Assistant.cs",
               "ToolTip": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\Assistant.cs",
               "RelativeToolTip": "Lab3_patterns\\Assistant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T14:19:19.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Lecturer.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\Lecturer.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\Lecturer.cs",
@@ -525,11 +550,12 @@
               "RelativeToolTip": "Lab3_patterns\\Lecturer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:18:53.716Z"
+              "WhenOpened": "2025-09-27T14:18:53.716Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 13,
               "Title": "ISuperviseCapable.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\ISuperviseCapable.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\ISuperviseCapable.cs",
@@ -537,11 +563,12 @@
               "RelativeToolTip": "Lab3_patterns\\ISuperviseCapable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:18:28.811Z"
+              "WhenOpened": "2025-09-27T14:18:28.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 11,
               "Title": "IPracticalCapable.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\IPracticalCapable.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\IPracticalCapable.cs",
@@ -549,11 +576,12 @@
               "RelativeToolTip": "Lab3_patterns\\IPracticalCapable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:18:07.577Z"
+              "WhenOpened": "2025-09-27T14:18:07.577Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 10,
               "Title": "ILectureCapable.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\ILectureCapable.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\ILectureCapable.cs",
@@ -561,11 +589,12 @@
               "RelativeToolTip": "Lab3_patterns\\ILectureCapable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:17:51.516Z"
+              "WhenOpened": "2025-09-27T14:17:51.516Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 14,
               "Title": "ITeacher.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\ITeacher.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\ITeacher.cs",
@@ -573,29 +602,31 @@
               "RelativeToolTip": "Lab3_patterns\\ITeacher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:17:30.656Z"
+              "WhenOpened": "2025-09-27T14:17:30.656Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "TimeCell.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\TimeCell.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\TimeCell.cs",
               "ToolTip": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\TimeCell.cs",
               "RelativeToolTip": "Lab3_patterns\\TimeCell.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T14:17:01.248Z"
+              "WhenOpened": "2025-09-27T14:17:01.248Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\Program.cs",
               "RelativeDocumentMoniker": "Lab3_patterns\\Program.cs",
               "ToolTip": "C:\\Development\\LABs\\FEP-22-Design-Patterns\\Lab3_patterns\\Lab3_patterns\\Program.cs",
               "RelativeToolTip": "Lab3_patterns\\Program.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAewH0AAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAewH8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T14:15:38.236Z",
               "EditorCaption": ""

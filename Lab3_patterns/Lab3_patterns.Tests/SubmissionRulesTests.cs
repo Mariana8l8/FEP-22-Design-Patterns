@@ -8,11 +8,7 @@ namespace Lab3_patterns.Tests
 {
     public class SubmissionRulesTests
     {
-        [Theory]
-        //[InlineData("file.txt")]
-        //[InlineData("report.docx")]
-        //[InlineData("image.png")]
-        //[InlineData("justname")]     
+        [Theory]  
         [InlineData(".pdf")]
         public void CheckOnlineSubmission_ForCorrectlyMarksAFile(string fileName)
         {
@@ -20,15 +16,9 @@ namespace Lab3_patterns.Tests
 
             var ex = Record.Exception(() => submission.Submit(fileName));
             Assert.Null(ex);
-
-            //Assert.Throws<ArgumentException>(() => submission.Submit(fileName));
         }
 
         [Theory]
-        //[InlineData("file.txt")]
-        //[InlineData("report.docx")]
-        //[InlineData("justname")]
-        //[InlineData(".pdf")]
         [InlineData("https: //github.com/.git")]
         public void CheckGitHubSubmission_ForCorrectlyRepositoryLink(string fileName)
         {
@@ -36,8 +26,6 @@ namespace Lab3_patterns.Tests
 
             var ex = Record.Exception(() => submission.Submit(fileName));
             Assert.Null(ex);
-
-            //Assert.Throws<ArgumentException>(() => submission.Submit(fileName));
         }
     }
 }
