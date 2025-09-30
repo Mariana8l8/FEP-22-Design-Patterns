@@ -5,6 +5,7 @@ class Customer:
         self.age = age
         self.operator_id = operator_id   
 
+
 class Bill:
     def __init__(self, id, limit):
         self.id = id
@@ -31,62 +32,59 @@ class Operator:
         self.talk_cost = talk_cost
         self.msg_cost = msg_cost
         self.net_cost = net_cost
-        self.bills = {}   # словник: customer_id -> Bill
+        self.bills = {}   # {id клієнта: Bill}
 
     def create_bill(self, customer_id, limit=200):
         self.bills[customer_id] = Bill(customer_id, limit)
-        print(f"Створено рахунок для клієнта {customer_id} в {self.name}")
+        return self.bills[customer_id]
 
-    def _get_bill(self, customer_id):   #Для зовнішнього використання
+    def _get_bill(self, customer_id):
         return self.bills.get(customer_id)
 
     def provide_talk(self, customer_id, minutes):
         bill = self._get_bill(customer_id)
         if not bill:
-            print("Рахунок не знайдено")
-            return
+            return None, "Рахунок не знайдено"
         cost = self.talk_cost * minutes
         if bill.check_limit(cost):
             bill.add(cost)
-            print(f"Дзвінок {minutes} хв. Вартість: {cost} грн. Борг: {bill.get_debt()} грн")
+            return cost, f"Дзвінок {minutes} хв. Вартість: {cost} грн. Борг: {bill.get_debt()} грн"
         else:
-            print("Перевищено ліміт рахунку.")
+            return None, "Перевищено ліміт рахунку."
 
     def provide_message(self, customer_id, quantity):
         bill = self._get_bill(customer_id)
         if not bill:
-            print("Рахунок не знайдено")
-            return
+            return None, "Рахунок не знайдено"
         cost = self.msg_cost * quantity
         if bill.check_limit(cost):
             bill.add(cost)
-            print(f"Повідомлення {quantity} шт. Вартість: {cost} грн. Борг: {bill.get_debt()} грн")
+            return cost, f"Повідомлення {quantity} шт. Вартість: {cost} грн. Борг: {bill.get_debt()} грн"
         else:
-            print("Перевищено ліміт рахунку.")
+            return None, "Перевищено ліміт рахунку."
 
     def provide_internet(self, customer_id, mb):
         bill = self._get_bill(customer_id)
         if not bill:
-            print("Рахунок не знайдено")
-            return
+            return None, "Рахунок не знайдено"
         cost = self.net_cost * mb
         if bill.check_limit(cost):
             bill.add(cost)
-            print(f"Інтернет {mb} МБ. Вартість: {cost} грн. Борг: {bill.get_debt()} грн")
+            return cost, f"Інтернет {mb} МБ. Вартість: {cost} грн. Борг: {bill.get_debt()} грн"
         else:
-            print("Перевищено ліміт рахунку.")
+            return None, "Перевищено ліміт рахунку."
 
     def pay(self, customer_id, amount):
         bill = self._get_bill(customer_id)
         if not bill:
-            print("Рахунок не знайдено")
-            return
+            return None, "Рахунок не знайдено"
         bill.pay(amount)
-        print(f"Оплачено {amount} грн. Залишок боргу: {bill.get_debt()} грн")
+        return amount, f"Оплачено {amount} грн. Залишок боргу: {bill.get_debt()} грн"
 
     def get_debt(self, customer_id):
         bill = self._get_bill(customer_id)
         return bill.get_debt() if bill else None
+
 
 def main():
     operators = [
@@ -95,42 +93,76 @@ def main():
         Operator(3, "Deathcell", 1.2, 0.6, 0.25)
     ]
 
-    name = input("Введіть ім'я клієнта: ")
-    age = int(input("Введіть вік клієнта: "))
+    customers = {}
+    next_id = 1
+
+    # перший користувач
+    name = input("Ім'я: ")
+    age = int(input("Вік: "))
     for op in operators:
         print(f"{op.id}. {op.name}")
     op_id = int(input("Оберіть оператора: "))
 
-    customer = Customer(1, name, age, op_id)
-    chosen_operator = operators[op_id - 1]
-    chosen_operator.create_bill(customer.id)
+    customers[next_id] = Customer(next_id, name, age, op_id)
+    operators[op_id - 1].create_bill(next_id)
+    print(f"Користувач {name} доданий. Створено рахунок у {operators[op_id - 1].name}")
+    next_id += 1
 
+    # головне меню
     while True:
         print("\n1. Дзвінок")
         print("2. Повідомлення")
         print("3. Інтернет")
         print("4. Поповнити рахунок")
         print("5. Перевірити борг")
-        print("6. Вийти")
+        print("6. Додати користувача")
+        print("7. Вийти")
+
         choice = input("Ваш вибір: ")
 
-        if choice == '1':
-            minutes = int(input("Хвилини: "))
-            chosen_operator.provide_talk(customer.id, minutes)
-        elif choice == '2':
-            qty = int(input("Кількість SMS: "))
-            chosen_operator.provide_message(customer.id, qty)
-        elif choice == '3':
-            mb = int(input("МБ: "))
-            chosen_operator.provide_internet(customer.id, mb)
-        elif choice == '4':
-            amount = float(input("Сума: "))
-            chosen_operator.pay(customer.id, amount)
-        elif choice == '5':
-            debt = chosen_operator.get_debt(customer.id)
-            print(f"Борг: {debt} грн")
+        if choice in ['1', '2', '3', '4', '5']:
+            cid = int(input("ID клієнта: "))
+            if cid not in customers:
+                print("Користувач не знайдений")
+                continue
+
+            op = operators[customers[cid].operator_id - 1]
+
+            if choice == '1':
+                minutes = int(input("Хвилини: "))
+                _, msg = op.provide_talk(cid, minutes)
+                print(msg)
+            elif choice == '2':
+                qty = int(input("Кількість SMS: "))
+                _, msg = op.provide_message(cid, qty)
+                print(msg)
+            elif choice == '3':
+                mb = int(input("МБ: "))
+                _, msg = op.provide_internet(cid, mb)
+                print(msg)
+            elif choice == '4':
+                amount = float(input("Сума: "))
+                _, msg = op.pay(cid, amount)
+                print(msg)
+            elif choice == '5':
+                debt = op.get_debt(cid)
+                print(f"Борг: {debt} грн")
+
         elif choice == '6':
+            name = input("Ім'я: ")
+            age = int(input("Вік: "))
+            for op in operators:
+                print(f"{op.id}. {op.name}")
+            op_id = int(input("Оберіть оператора: "))
+
+            customers[next_id] = Customer(next_id, name, age, op_id)
+            operators[op_id - 1].create_bill(next_id)
+            print(f"Користувач {name} доданий. Створено рахунок у {operators[op_id - 1].name}")
+            next_id += 1
+
+        elif choice == '7':
             break
+
 
 if __name__ == "__main__":
     main()
