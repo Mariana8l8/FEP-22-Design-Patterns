@@ -14,16 +14,10 @@
             1
         ],
         "heavy_container": [
-            3,
-            4,
-            5
+            2
         ],
-        "liquid_container": [
-            5
-        ],
-        "refrigerated_container": [
-            4
-        ],
+        "liquid_container": [],
+        "refrigerated_container": [],
         "ship_1": {
             "fuel": 17210679.91,
             "max_weight": 10000,
@@ -37,20 +31,6 @@
             "liquid_container": [],
             "refrigerated_container": [],
             "fuel_consumption_per_km": 10.0
-        },
-        "ship_2": {
-            "fuel": 49843181.3,
-            "max_weight": 15000,
-            "max_all": 6,
-            "max_basic": 3,
-            "max_heavy": 2,
-            "max_refrigerated": 1,
-            "max_liquid": 2,
-            "basic_container": [],
-            "heavy_container": [],
-            "liquid_container": [],
-            "refrigerated_container": [],
-            "fuel_consumption_per_km": 6262.0
         }
     }
 }
