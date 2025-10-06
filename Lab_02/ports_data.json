@@ -1,0 +1,19 @@
+{
+    "Port_1": {
+        "lat": 50.45,
+        "lon": 30.52,
+        "containers": [
+            0
+        ]
+    },
+    "Port_2": {
+        "lat": 48.85,
+        "lon": 2.35,
+        "containers": [],
+        "ship_1": {
+            "fuel": 500000.0,
+            "max_weight": 10000,
+            "max_all": 5
+        }
+    }
+}
