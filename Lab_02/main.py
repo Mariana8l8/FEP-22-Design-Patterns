@@ -41,7 +41,6 @@ def main():
     port1 = Port(data["Port_1"]["lat"], data["Port_1"]["lon"])
     port2 = Port(data["Port_2"]["lat"], data["Port_2"]["lon"])
 
-    # [Тест] Кладемо кілька контейнерів у Порт 1
     test_containers = [
         BasicContainer(800),
         HeavyContainer(1200),
@@ -51,10 +50,8 @@ def main():
     for c in test_containers:
         port1.put_container(c)
 
-    # (а) Друк стану Порту 1
     print_port_containers("Контейнери у Порті 1 (перед відправленням)", port1)
 
-    # 2) Беремо перший корабель із JSON (наприклад, ship_1)
     ship_key = next(k for k in data["Port_2"] if k.startswith("ship_"))
     ship_info = data["Port_2"][ship_key]
 
@@ -70,11 +67,9 @@ def main():
     ship = Ship(currentPort=port1, capacity=capacity, fuelPerKm=0.1)
     ship.reFuel(ship_info["fuel"])
 
-    # (б) Завантажуємо УСІ контейнери з Порту 1
     for cid in list(sorted(port1.containers.keys())):
         ship.load(cid)
 
-    # 3) Дозаправка рівно під рейс (з невеликим запасом)
     req = needed_fuel(ship, port1, port2)
     need_with_margin = req * 1.05
     if ship.fuel < need_with_margin:
@@ -82,7 +77,6 @@ def main():
 
     print("Вирушаємо до Порту 2")
 
-    # 4) Перехід і вигрузка
     if not ship.sailTo(port2):
         print("Не вдалося вирушити")
         return
@@ -90,7 +84,6 @@ def main():
     for c in ship.getCurrentContainers():
         ship.unLoad(c.ID)
 
-    # (в) Друк стану Порту 2 після прибуття
     print_port_containers("Контейнери у Порті 2 (після прибуття)", port2)
 
 
