@@ -1,19 +1,28 @@
 {
-    "Port_1": {
-        "lat": 50.45,
-        "lon": 30.52,
-        "containers": [
-            0
-        ]
-    },
-    "Port_2": {
-        "lat": 48.85,
-        "lon": 2.35,
-        "containers": [],
-        "ship_1": {
-            "fuel": 500000.0,
-            "max_weight": 10000,
-            "max_all": 5
-        }
+  "Port_1": {
+    "lat": 50.45,
+    "lon": 30.52,
+    "basic_container": [1],
+    "heavy_container": [2],
+    "refrigerated_container": [],
+    "liquid_container": [],
+    "ship_1": {
+      "fuel": 5000.0,
+      "fuel_consumption_per_km": 10.0,
+      "max_weight": 10000,
+      "max_all": 5,
+      "max_basic": 2,
+      "max_heavy": 2,
+      "max_refrigerated": 1,
+      "max_liquid": 1
     }
+  },
+  "Port_2": {
+    "lat": 48.85,
+    "lon": 2.35,
+    "basic_container": [],
+    "heavy_container": [],
+    "refrigerated_container": [],
+    "liquid_container": []
+  }
 }
