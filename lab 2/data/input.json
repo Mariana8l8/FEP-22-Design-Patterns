@@ -1,0 +1,45 @@
+{
+    "ports": [
+        {"id": 1, "latitude": 50.0, "longitude": 30.0},
+        {"id": 2, "latitude": 51.0, "longitude": 31.0}
+    ],
+    "ships": [
+        {
+            "id": 101,
+            "current_port": 1,
+            "fuel": 500.0,
+            "total_weight_capacity": 10000,
+            "max_all": 10,
+            "max_heavy": 5,
+            "max_refrigerated": 2,
+            "max_liquid": 2,
+            "fuel_per_km": 1.5
+        },
+        {
+            "id": 102,
+            "current_port": 2,
+            "fuel": 300.0,
+            "total_weight_capacity": 8000,
+            "max_all": 8,
+            "max_heavy": 3,
+            "max_refrigerated": 1,
+            "max_liquid": 1,
+            "fuel_per_km": 1.2
+        }
+    ],
+    "containers": [
+        {"id": 1, "weight": 2000},
+        {"id": 2, "weight": 5000},
+        {"id": 3, "weight": 4000, "type": "R"},
+        {"id": 4, "weight": 4500, "type": "L"},
+        {"id": 5, "weight": 2500}
+    ],
+    "actions": [
+        {"type": "load", "ship_id": 101, "container_id": 1},
+        {"type": "load", "ship_id": 101, "container_id": 2},
+        {"type": "load", "ship_id": 101, "container_id": 3},
+        {"type": "sail", "ship_id": 101, "to_port": 2},
+        {"type": "unload", "ship_id": 101, "container_id": 2},
+        {"type": "refuel", "ship_id": 102, "amount": 200}
+    ]
+}

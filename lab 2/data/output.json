@@ -1,0 +1,29 @@
+{
+    "ports": {
+        "port_1": {
+            "lat": 50.0,
+            "lon": 30.0,
+            "containers": [],
+            "ships": {}
+        },
+        "port_2": {
+            "lat": 51.0,
+            "lon": 31.0,
+            "containers": [
+                2
+            ],
+            "ships": {
+                "ship_101": {
+                    "fuel_left": 490.1,
+                    "containers": [
+                        1
+                    ]
+                },
+                "ship_102": {
+                    "fuel_left": 500.0,
+                    "containers": []
+                }
+            }
+        }
+    }
+}
