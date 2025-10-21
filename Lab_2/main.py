@@ -1,11 +1,12 @@
 import json
 from pprint import pprint
-from ships import *
 from containers.basic import BasicContainer
 from containers.heavy import HeavyContainer
 from containers.liquid import LiquidContainer
 from containers.refrigerated import RefrigeratedContainer
 from ports.port import Port
+from ships.ship import Ship
+from ships.ship_capacity import ShipCapacity
 
 port1 = Port(latitude=50.45, longitude=30.52)
 port2 = Port(latitude=48.85, longitude=2.35)
