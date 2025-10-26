@@ -6,56 +6,149 @@
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <header>
-        <h1>🏠 SmartApp IoT Dashboard</h1>
-    </header>
+<header>
+    <h1>🏠 SmartApp IoT Dashboard</h1>
+</header>
 
-    <main>
-        <section class="devices">
-            {% if devices %}
-                {% for device in devices %}
-                <div class="device-card">
-                    <h2>{{ device.type | replace('_', ' ') | title }}</h2>
-                    <p><strong>ID:</strong> {{ device.device_id }}</p>
-                    <p><strong>Connection:</strong> {{ device.connection }}</p>
+<main>
+    <section class="devices">
+        {% if devices %}
+        {% for device in devices %}
+        <div class="device-card">
+            <div class="device-header">
+                <h2>{{ device.device_type | replace('_', ' ') | title }}</h2>
+                <span class="status-indicator {{ device.status }}"></span>
+            </div>
+            <p class="device-id"><strong>ID:</strong> {{ device.device_id }}</p>
 
-                    {% if device.type == "smart_speaker" %}
-                        <p>Status: {{ "ON" if device.is_on else "OFF" }}</p>
-                        <form action="/toggle_speaker" method="post">
-                            <button type="submit" class="btn">
-                                {{ "Turn Off" if device.is_on else "Turn On" }}
-                            </button>
-                        </form>
-                        <p>Volume: {{ device.volume }}%</p>
+            {% if device.status == "online" %}
+            <p><strong>Connection:</strong> {{ device.connection }}</p>
 
-                    {% elif device.type == "smart_light" %}
-                        <p>Status: {{ "ON" if device.is_on else "OFF" }}</p>
-                        <form action="/toggle_light" method="post">
-                            <button type="submit" class="btn">
-                                {{ "Turn Off" if device.is_on else "Turn On" }}
-                            </button>
-                        </form>
-                        <p>Brightness: {{ device.brightness }}%</p>
+            {% if device.device_type == "Smart Speaker" %}
+            <div class="control-group">
+                <p>Status: <span class="status-text">{{ "ON" if device.is_on else "OFF" }}</span></p>
+                <form action="/toggle_speaker" method="post" class="inline-form">
+                    <button type="submit" class="btn btn-toggle">
+                        {{ "Turn Off" if device.is_on else "Turn On" }}
+                    </button>
+                </form>
+            </div>
 
-                    {% elif device.type == "smart_curtains" %}
-                        <p>Status: {{ "OPEN" if device.is_open else "CLOSED" }}</p>
-                        <form action="/toggle_curtains" method="post">
-                            <button type="submit" class="btn">
-                                {{ "Close" if device.is_open else "Open" }}
-                            </button>
-                        </form>
-                        <p>Position: {{ device.position }}%</p>
-                    {% endif %}
-                </div>
-                {% endfor %}
-            {% else %}
-                <p>No devices found.</p>
+            <div class="control-group">
+                <p>Volume: <span class="current-value">{{ device.volume }}%</span></p>
+
+                <form action="/set_volume" method="post" class="inline-form slider-form">
+                    <div class="slider-container">
+                        <label for="volume_{{ device.device_id }}" class="slider-label">New:</label>
+                        <input type="range" min="0" max="100" value="{{ device.volume }}"
+                               id="volume_{{ device.device_id }}" name="volume"
+                               oninput="updateOutput('volume_output_{{ device.device_id }}', this.value)">
+                        <output id="volume_output_{{ device.device_id }}">{{ device.volume }}</output>
+                        <span>%</span>
+                    </div>
+                    <button type="submit" class="btn btn-small">Set</button>
+                </form>
+            </div>
+
+            <div class="control-group">
+                <p>Track: <span class="status-text">{{ device.current_track if device.current_track != "" else "No track"}}</span>
+                </p>
+                <form action="/set_track" method="post" class="inline-form input-form">
+                    <input type="text" id="track_{{ device.device_id }}" name="track" placeholder="Enter track name">
+                    <button type="submit" class="btn btn-small">Set</button>
+                </form>
+            </div>
+
+            {% elif device.device_type == "Smart Light" %}
+            <div class="control-group">
+                <p>Status: <span class="status-text">{{ "ON" if device.is_on else "OFF" }}</span></p>
+                <form action="/toggle_light" method="post" class="inline-form">
+                    <button type="submit" class="btn btn-toggle">
+                        {{ "Turn Off" if device.is_on else "Turn On" }}
+                    </button>
+                </form>
+            </div>
+
+            <div class="control-group">
+                <p>Brightness: <span class="current-value">{{ device.brightness }}%</span></p>
+
+                <form action="/set_brightness" method="post" class="inline-form slider-form">
+                    <div class="slider-container">
+                        <label for="brightness_{{ device.device_id }}" class="slider-label">New:</label>
+                        <input type="range" min="0" max="100" value="{{ device.brightness }}"
+                               id="brightness_{{ device.device_id }}" name="brightness"
+                               oninput="updateOutput('brightness_output_{{ device.device_id }}', this.value)">
+                        <output id="brightness_output_{{ device.device_id }}">{{ device.brightness }}</output>
+                        <span>%</span>
+                    </div>
+                    <button type="submit" class="btn btn-small">Set</button>
+                </form>
+            </div>
+
+            <div class="control-group color-control">
+                <p>Color (RGB):</p>
+                <form action="/set_rgb" method="post" class="inline-form rgb-form">
+                    <div class="rgb-inputs">
+                        <input type="number" id="r_{{ device.device_id }}" name="r" min="0" max="255"
+                               value="{{ device.rgb[0] }}">
+                        <input type="number" id="g_{{ device.device_id }}" name="g" min="0" max="255"
+                               value="{{ device.rgb[1] }}">
+                        <input type="number" id="b_{{ device.device_id }}" name="b" min="0" max="255"
+                               value="{{ device.rgb[2] }}">
+                    </div>
+                    <button type="submit" class="btn btn-small">Set</button>
+                </form>
+            </div>
+
+            {% elif device.device_type == "Smart Curtain" %}
+            <div class="control-group">
+                <p>Status: <span class="status-text">{{ "Open" if device.is_open else "Closed" }}</span></p>
+                <form action="/toggle_curtain" method="post" class="inline-form">
+                    <button type="submit" class="btn btn-toggle">
+                        {{ "Close" if device.is_open else "Open" }}
+                    </button>
+                </form>
+            </div>
+
+            <div class="control-group">
+                <p>Position: <span class="current-value">{{ device.position }}%</span></p>
+
+                <form action="/set_position" method="post" class="inline-form slider-form">
+                    <div class="slider-container">
+                        <label for="position_{{ device.device_id }}" class="slider-label">New:</label>
+                        <input type="range" min="0" max="100" value="{{ device.position }}"
+                               id="position_{{ device.device_id }}" name="position"
+                               oninput="updateOutput('position_output_{{ device.device_id }}', this.value)">
+                        <output id="position_output_{{ device.device_id }}">{{ device.position }}</output>
+                        <span>%</span>
+                    </div>
+                    <button type="submit" class="btn btn-small">Set</button>
+                </form>
+            </div>
             {% endif %}
-        </section>
-    </main>
+            {% else %}
+            <p class="offline-message"><strong>Offline</strong></p>
+            {% endif %}
+        </div>
+        {% endfor %}
+        {% else %}
+        <p>No devices found.</p>
+        {% endif %}
+    </section>
+</main>
 
-    <footer>
-        <p>© 2025 SmartApp IoT — Microservices Demo</p>
-    </footer>
+<footer>
+    <p>© 2025 SmartApp IoT — Microservices Demo</p>
+</footer>
+
+<script>
+    function updateOutput(targetId, value) {
+        const outputElement = document.getElementById(targetId);
+        if (outputElement) {
+            outputElement.textContent = value;
+        }
+    }
+</script>
+
 </body>
 </html>

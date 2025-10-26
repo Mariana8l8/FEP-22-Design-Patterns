@@ -74,7 +74,7 @@ You **don’t edit** HTML/CSS — only run them.
 ##  Step 1: Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.in
 ````
 
 ---
@@ -314,7 +314,7 @@ if __name__ == "__main__":
  Run in new terminal:
 
 ```bash
-python devices/smart_curtains.py
+python devices/smart_curtain.py
 ```
 
 ---
@@ -425,7 +425,7 @@ python devices/smart_light.py
 **Terminal 3**
 
 ```bash
-python devices/smart_curtains.py
+python devices/smart_curtain.py
 ```
 
 **Terminal 4**

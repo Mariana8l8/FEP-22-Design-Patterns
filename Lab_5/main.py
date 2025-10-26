@@ -1,82 +1,85 @@
-import logging
-import tkinter as tk
+from fastapi import FastAPI, Request, Form
+from fastapi.responses import HTMLResponse
+from fastapi.templating import Jinja2Templates
+from fastapi.staticfiles import StaticFiles
+from starlette.responses import RedirectResponse
 
-from iot.devices import SmartSpeakerDevice
-from iot.service import IOTService
-from message.helper import Message as Msg
-from network.connection import Connection
+from controller.app_controller import AppController
+import uvicorn
 
-OFF_TEXT = "Speaker OFF"
-ON_TEXT = "Speaker ON"
-STATUS_UPDATE_TEXT = "Status Update"
+from devices.base_device import DeviceInfo
 
+app = FastAPI(title="SmartApp IoT System")
 
-class SmartApp(tk.Tk):
-    def __init__(self) -> None:
-        super().__init__()
-        self.title("Smart App")
-        self.geometry("400x250+300+300")
-        self.speaker_on = False
+templates = Jinja2Templates(directory="web/templates")
 
-        # create a IOT service
-        self.service = IOTService()
+app.mount("/static", StaticFiles(directory="web/static"), name="static")
 
-        # create the smart speaker
-        smart_speaker = SmartSpeakerDevice()
-        self.speaker_id = self.service.register_device(smart_speaker)
-
-        self.create_ui()
-
-    def create_ui(self) -> None:
-        self.toggle_button = tk.Button(
-            self, text=OFF_TEXT, width=10, command=self.toggle
-        )
-        self.get_status_button = tk.Button(
-            self, text=STATUS_UPDATE_TEXT, width=10, command=self.display_status
-        )
-        self.status_label = tk.Label(self, text="")
-        self.toggle_button.pack()
-        self.get_status_button.pack()
-        self.status_label.pack()
-
-    def toggle(self) -> None:
-        logging.info(f"Toggle speaker {self.speaker_id} with status {self.speaker_on}")
-
-        self.speaker_on = not self.speaker_on
-        self.toggle_button.config(text=ON_TEXT if self.speaker_on else OFF_TEXT)
-
-        # create a connection to the smart speaker
-        speaker_ip, speaker_port = self.service.get_device(
-            self.speaker_id
-        ).connection_info()
-        speaker_connection = Connection(speaker_ip, speaker_port)
-
-        # construct a message
-        message = Msg(
-            "SERVER", self.speaker_id, "switch_on" if self.speaker_on else "switch_off"
-        )
-
-        # send the message
-        speaker_connection.connect()
-        speaker_connection.send(message.b64)
-        speaker_connection.disconnect()
-
-        logging.info(f"Speaker {self.speaker_id} status: {self.speaker_on}")
-
-    def display_status(self) -> None:
-        logging.info(f"Display status for IOT devices.")
-        status = ""
-        for device_id, device in self.service.devices().items():
-            status += f"{device_id}: {device.status_update()}"
-        self.status_label.config(text=status)
-        logging.info(f"Status: {status}")
+controller = AppController()
 
 
-def main():
-    logging.basicConfig(level=logging.INFO)
-    app = SmartApp()
-    app.mainloop()
+@app.get("/", response_class=HTMLResponse)
+async def read_root(request: Request):
+    status = controller.get_all_statuses()
+    return templates.TemplateResponse(
+        "index.html",
+        {"request": request, "devices": status}
+    )
+
+
+@app.post("/toggle_speaker")
+async def toggle_speaker():
+    controller.toggle_speaker()
+    return RedirectResponse(url="/", status_code=303)
+
+
+@app.post("/set_volume")
+async def set_volume(volume: int = Form(...)):
+    controller.set_speaker_volume(volume)
+    return RedirectResponse(url="/", status_code=303)
+
+
+@app.post("/set_track")
+async def set_track(track: str = Form(...)):
+    controller.set_speaker_track(track)
+    return RedirectResponse(url="/", status_code=303)
+
+
+@app.post("/toggle_light")
+async def toggle_light():
+    controller.toggle_light()
+    return RedirectResponse(url="/", status_code=303)
+
+
+@app.post("/set_brightness")
+async def set_brightness(brightness: int = Form(...)):
+    controller.set_light_brightness(brightness)
+    return RedirectResponse(url="/", status_code=303)
+
+
+@app.post("/set_rgb")
+async def set_rgb(r: int = Form(...), g: int = Form(...), b: int = Form(...)):
+    controller.set_light_rgb(r, g, b)
+    return RedirectResponse(url="/", status_code=303)
+
+
+@app.post("/toggle_curtain")
+async def toggle_curtain():
+    controller.toggle_curtain()
+    return RedirectResponse(url="/", status_code=303)
+
+
+@app.post("/set_position")
+async def set_position(position: int = Form(...)):
+    controller.set_curtain_position(position)
+    return RedirectResponse(url="/", status_code=303)
+
+
+@app.post("/api/device/register")
+async def register_device(device_info: DeviceInfo):
+    controller.register_device(device_info)
+    return {"status": "registered"}
 
 
 if __name__ == "__main__":
-    main()
+    uvicorn.run(app, host="127.0.0.1", port=8000)
