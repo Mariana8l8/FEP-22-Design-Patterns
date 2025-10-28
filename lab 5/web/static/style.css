@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f8f9fb;
+  color: #222;
+}
+h1 {
+  text-align: center;
+}
+.devices {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.device-card {
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  width: 260px;
+}
+.device-card h2 {
+  margin-top: 0;
+}
+.device-card form {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+}
+.device-card input[type="number"] {
+  width: 70px;
+  padding: 4px;
+}
+button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #2b78f4;
+  color: white;
+}
+button:hover {
+  opacity: 0.9;
+}
+.error {
+  color: red;
+  font-weight: bold;
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #666;
+}

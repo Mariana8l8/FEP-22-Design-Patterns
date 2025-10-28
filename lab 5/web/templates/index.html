@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SmartApp IoT Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>SmartApp IoT Dashboard</h1>
+
+  <div class="devices">
+    {% for d in devices %}
+      <div class="device-card">
+        <h2>{{ d.device_id if d.device_id else "Unknown" }}</h2>
+        {% if d.error %}
+          <p class="error">Status: unreachable</p>
+        {% else %}
+          <p>Type: {{ d.type if d.type else "—" }}</p>
+          <p>Connection: {{ d.connection if d.connection else "—" }}</p>
+
+          {% if d.type == "smart_speaker" %}
+            <p>Power: {{ "ON" if d.is_on else "OFF" }}</p>
+            <p>Volume: {{ d.volume }}</p>
+            <form method="post" action="/toggle_speaker">
+              <button type="submit">Toggle Speaker</button>
+            </form>
+            <form method="post" action="/set_volume">
+              <input type="number" name="volume" min="0" max="100" value="{{ d.volume }}">
+              <button type="submit">Set Volume</button>
+            </form>
+          {% elif d.type == "smart_light" %}
+            <p>Power: {{ "ON" if d.is_on else "OFF" }}</p>
+            <p>Brightness: {{ d.brightness }}</p>
+            <form method="post" action="/toggle_light">
+              <button type="submit">Toggle Light</button>
+            </form>
+            <form method="post" action="/set_brightness">
+              <input type="number" name="brightness" min="0" max="100" value="{{ d.brightness }}">
+              <button type="submit">Set Brightness</button>
+            </form>
+          {% elif d.type == "smart_curtains" %}
+            <p>Open: {{ "YES" if d.is_open else "NO" }}</p>
+            <p>Position: {{ d.position }}</p>
+            <form method="post" action="/toggle_curtains">
+              <button type="submit">Toggle Curtains</button>
+            </form>
+            <form method="post" action="/set_curtains_position">
+              <input type="number" name="position" min="0" max="100" value="{{ d.position }}">
+              <button type="submit">Set Position</button>
+            </form>
+          {% else %}
+            <pre>{{ d }}</pre>
+          {% endif %}
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <footer>
+    <p>SmartApp IoT — microservices demo</p>
+  </footer>
+</body>
+</html>
